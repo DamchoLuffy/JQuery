@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+/* jQuery Selectors */
+.invincible{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#paragraph{
+    text-align: center;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    margin: 5px 40px;
+    padding: 5px 10px;
+    line-height: 25px;
+}
+
+#button{
+    border-style: none; 
+    background-color: rgb(221, 203, 180); 
+    width: 70px;
+    height: 30px; 
+}
+
+/* jQuery Event Methods */
+.dblclick{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#image img{
+    width: 100px;
+    height: 200px;
+    margin: 10px 65px;
+    padding: 5px 6px;
+    border: 2px solid black;
+}
+.img1:hover{
+    transform: scale(1.7, 1.7);
+}
+.img2:hover{
+    transform: scale(1.7, 1.7);
+}
+.img3:hover{
+    transform: scale(1.7, 1.7);
+}
+.img4:hover{
+    transform: scale(1.7, 1.7);
+}
+.img5:hover{
+    transform: scale(1.7, 1.7);
+}
+
+#click-me{
+    border-style: none;
+    background-color:rgb(221, 203, 180) ;
+    width: 70px;
+    height: 30px;
+    font-weight: 700;
+}
+
+/* mouseenter() */
+.mouseenter{
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+.printing{
+    text-align: center;
+    border: 3px solid black;
+    margin: 5px 50px;
+    line-height: 25px;
+}
+
+/* mouseleave() */
+.mouseleave{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.papa{
+    text-align: center;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    margin: 5px 50px;
+    padding: 10px;
+}
+
+/* hover() */
+.hover-h {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#hover{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 5px 50px;
+    padding: 5px 20px;
+}
+
+.div-img{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* focus() */
+.h1-fo{
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px;
+    font-weight: 700;
+}
+.input-text{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    line-height: 10px;
+    margin: 30px 515px;
+    padding: 20px;
+    line-height: 40px;
+    background-image: url("assect/white.webp");
+}
+
+/* The on() Method */
+#on-mood{
+    text-align: center;
+    border: 2px solid black;
+    margin: 30px 90PX;
+    padding: 5px;
+    line-height: 25PX;
+}
+
+/* jQuery hide() and show() */
+
+.show-and-hide{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#hide-show img{
+    width: 300px;
+    height: 400px;
+    margin: 10px 58px;
+}
+.div-hide-show{
+    text-align: center;
+}
+#hide{
+    background-color: rgb(167, 113, 113);
+    border-style: none;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 70px;
+    height: 40px;
+}
+#show{
+    background-color: rgb(167, 113, 113);
+    border-style: none;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 70px;
+    height: 40px;
+}
+/* fade in and fade out */
+#main-div{
+    text-align: center;
+}
+.fadein{
+    text-align: center;
+    margin: 20px;
+    text-decoration:underline;
+}
+.suprise{
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-style: double;
+    margin: 0px 20px;
+}
+.suprise2{
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-style: double;
+    margin: 0px 20px;
+}
+#empty{
+    margin: 10px;
+}
+.dive1{
+    width: 250px;
+    height: 80px;
+    background-color: red;
+    display: none;
+}
+.dive2{
+    width: 250px;
+    height: 80px;
+    background-color:yellow;
+    display: none;
+}
+.dive3{
+    width: 250px;
+    height: 80px;
+    background-color: green;
+    display: none;
+}
+
+/* jQuery fadeToggle() Method */
+.toggle-both{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px 0px;
+}
+
+#toggle{
+    text-align: center;
+}
+.fade2{
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-style: double;
+    margin: 0px 20px; 
+}
+.fade3{
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-style: double;
+    margin: 0px 20px;
+}
+#empty1{
+    margin: 10px;  
+}
+#toggle1{
+    width: 250px;
+    height: 80px;
+    background-color: red;
+    display: none;
+}
+#toggle2{
+    width: 250px;
+    height: 80px;
+    background-color:yellow;
+    display: none;
+}
+#toggle3{
+    width: 250px;
+    height: 80px;
+    background-color: green;
+    display: none;
+}
+
+/* JQuery slide */
+#stop{
+    border-style: none;
+    background-color: #98bf21;
+    width: 100px;
+    height: 30px;
+}
+#clip{
+    text-align: center;
+    margin: 20px;text-decoration: underline;
+    width: 800px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-style: none;
+}
+#lane img{
+    width: 800px;
+    height: 700px;
+    margin: -20px;
+}
+/* jQuery animate() - Manipulate Multiple Properties */
+.nothing{
+    background:#98bf21;
+    height:50px;
+    width: 50px;
+    /* position:absolute; */
+    margin: 15px 525px;
+    padding: 10px;
+}
+#container{
+    background-color: black;
+    color: whitesmoke;
+}
+.ppaa{
+    margin: -1px;
+    background-color: blanchedalmond;
+    font-weight: 900;
+    color: black;
+    width: 1265px;
+}
+#animation{
+    margin: -20px;
+    width: 1265px;
+    border-style: none;
+    background-color: beige;
+    font-weight: 900;
+}
+/* jQuery animate() - Manipulate Multiple Properties */
+
+.devil{
+    background: #98bf21;
+    height: 100px;
+    width: 100px;
+    margin: 15px 20px;
+}
+#Start-Animation{
+    background-color: antiquewhite;
+    border-style: none;
+}
+
+#GreatDay{
+    text-align: center;
+    line-height: 25px;
+    text-decoration: underline;
+}
+
+/* jQuery Callback Functions */
+.butt{
+    width: 1265px;
+    height: 30px;
+}
+.clas{
+    width: 1265px;
+    text-align: center;
+    border: 2px solid black;
+}
+/* jQuery - Chaining */
+
+#clickme{
+    width: 1265px;
+    height: 30px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+/* jQuery - Get Content and Attributes */
+#test{
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+}
+#btn1{
+    width: 600px;
+    height: 100px;
+    background-color: #98bf21;
+    font-weight: 900;
+    margin: 10px;
+}
+#btn2{
+    width: 600px;
+    height: 100px;
+    background-color: #98bf21;
+    font-weight: 900;
+    margin: 10px;
+}
+/* jQuery - Set Content and Attributes */
+#india{
+    text-align: center;
+    line-height: 30px;
+}
+#test1{
+    font-size: larger;
+    font-weight: 900;
+}
+
+#test2{
+    font-size: larger;
+    font-weight: 900;
+}
+/* Set Attributes - attr() */
+#butte{
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: whitesmoke;
+}
+#visitme{
+    width: 100px;
+    height: 40px;
+}
+#Mouse{
+    font-weight: 900;
+    color: black;
+}
+/* jQuery after() and before() Methods */
+#goodboy{
+    text-align: center;
+    line-height: 30px;
+}
+#goodboy img{
+    width: 900px;
+    height: 600px;
+}
+
+/* jQuery empty() Method & jQuery remove() Method */
+#laptop{
+    width: 300px;
+    height: 150px;
+    background-color: #98bf21;
+    margin: 10px 450px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+#em{
+    width: 200px;
+    margin: 10px;
+}
+#rm{
+    width: 200px;
+    margin: 10px;
+}
+
+/* addClass() */
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .blue {
+    color: blue;
+  }
+  .green{
+    color: green;
+  }
+  #sectio2{
+    text-align: center;
+    line-height: 25px;
+  }
+
+  /* css() Method */
+.backgroung1{
+    text-align: center;
+}
+  .backgroung1 h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+  }
+  .backgroung1 h5{
+    height: 40px;
+    padding: 3px;
+  }
+  .backgroung1 button{
+    margin: 10px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 20px;
+    width: 300px;
+  }
+  .backgroung1 button:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition-duration: 1s;
+  }
+
+
+  /* Dimension */
+  #div11 {
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+  }
+  #spacing button{
+    line-height: 30px;
+    background-color: #98bf21;
+    border-radius: 20px;
+    width: 400px;
+    margin: 10px;
+  }
+  #spacing button:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition-duration: 1s;
+  }

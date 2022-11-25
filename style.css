@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #ccc;
 }
+
 
 /* jQuery Selectors */
 .invincible{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -21,7 +21,7 @@
     line-height: 25px;
 }
 
-#button{
+#buttn{
     border-style: none; 
     background-color: rgb(221, 203, 180); 
     width: 70px;
@@ -101,7 +101,7 @@
     text-decoration: underline;
 }
 
-#hover{
+#hove{
     border-left: 3px solid black;
     border-right: 3px solid black;
     display: flex;
@@ -132,7 +132,7 @@
     align-items: center;
     line-height: 10px;
     margin: 30px 515px;
-    padding: 20px;
+    padding: 10px 0px;
     line-height: 40px;
     background-image: url("assect/white.webp");
 }
@@ -271,12 +271,12 @@
 }
 
 /* JQuery slide */
-#stop{
+/* #stop{
     border-style: none;
     background-color: #98bf21;
     width: 100px;
     height: 30px;
-}
+} */
 #clip{
     text-align: center;
     margin: 20px;text-decoration: underline;
@@ -295,7 +295,6 @@
     background:#98bf21;
     height:50px;
     width: 50px;
-    /* position:absolute; */
     margin: 15px 525px;
     padding: 10px;
 }
@@ -418,7 +417,7 @@
 /* jQuery empty() Method & jQuery remove() Method */
 #laptop{
     width: 300px;
-    height: 150px;
+    height: 200px;
     background-color: #98bf21;
     margin: 10px 450px;
     text-align: center;
@@ -499,3 +498,37 @@
     color: whitesmoke;
     transition-duration: 1s;
   }
+
+
+  #linkto{
+    text-align: center;
+    font-weight: 900 ;
+  }
+
+  /* form */
+  #container-20{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(149, 149, 201);
+    margin: 50px 425px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px 0px;
+}
+.goo h3{
+    padding: 30px;
+    font-weight: 600;
+
+}
+
+#container-20 table{
+    text-align: center;
+    padding: 0px 20px;
+    margin: 10px 10px;
+}
+#btnk{
+    text-align: center;
+    margin: 20px 170px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 20px;
+}

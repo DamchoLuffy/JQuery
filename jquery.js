@@ -1,5 +1,6 @@
+// JQuery selector
 $(document).ready(function(){
-    $("#button").click(function(){
+    $("#buttn").click(function(){
       $("#paragraph").hide();
     });
   });
@@ -50,9 +51,9 @@ $(document).ready(function(){
 
 // The on() Method
 $(document).ready(function(){
-  $("p").on({
+  $(".onon").on({
     mouseenter: function(){
-      $(this).css("background-color", "lightgray");
+      $(this).css("color","red");
     },  
     mouseleave: function(){
       $(this).css("background-color", "lightblue");
@@ -100,13 +101,13 @@ $(document).ready(function(){
   });
 });
 
-// $(document).ready(function(){
-//   $("button").click(function(){
-//     $("#toggle1").fadeTo("slow", 0.15);
-//     $("#toggle2").fadeTo("slow", 0.4);
-//     $("#toggle3").fadeTo("slow", 0.7);
-//   });
-// });
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#toggle1").fadeTo("slow", 0.15);
+    $("#toggle2").fadeTo("slow", 0.4);
+    $("#toggle3").fadeTo("slow", 0.7);
+  });
+});
 
 
 // JQuery slide
@@ -121,7 +122,7 @@ $(document).ready(function(){
   $("#clip").click(function(){
     $("#lane").slideDown(5000);
   });
-  $("#stop").click(function(){
+  $("#clip").click(function(){
     $("#lane").stop();
   });
 });
@@ -296,5 +297,12 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#rset").click(function(){
     $("#div11").width(500).height(500);
+  });
+});
+
+// form
+$(document).ready(function(){
+  $("#btnk").click(function(){
+      alert("Your name, email and contact has been successfully submitted"+ $("form").text());
   });
 });
